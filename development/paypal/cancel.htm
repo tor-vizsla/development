@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Digital Goods - Cancel page</title>
+	<meta charset="utf-8" />
+    <script>
+    window.onload = function(){
+	    if(window.opener){
+		    window.close();
+	    }
+	    else{
+		    if(top.dg.isOpen() == true){
+			    top.dg.closeFlow();
+			    return true;
+		    }
+	    }
+    };
+    </script>
+</head>
+<body>
+    Digital Goods - Cancel page
+</body>
+</html>

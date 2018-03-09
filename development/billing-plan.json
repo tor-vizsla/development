@@ -1,0 +1,58 @@
+﻿{
+  "name": "Annual subscription",
+  "description": "Annual subscription for two factor authentication services",
+  "type": "fixed",
+  "payment_definitions": [
+    {
+      "name": "1000 SMS Credits bundle",
+      "type": "TRIAL",
+      "frequency_interval": "1",
+      "frequency": "MONTH",
+      "cycles": "1",
+      "amount": {
+        "currency": "USD",
+        "value": "70.00"
+      },
+      "charge_models": [
+        {
+          "type": "TAX",
+          "amount": {
+            "currency": "GBP",
+            "value": "14.00"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Annual subscription",
+      "type": "REGULAR",
+      "frequency_interval": "1",
+      "frequency": "ANNUAL",
+      "cycles": "0",
+      "amount": {
+        "currency": "GBP",
+        "value": "55.00"
+      },
+      "charge_models": [
+        {
+          "type": "TAX",
+          "amount": {
+            "currency": "GBP",
+            "value": "11.00"
+          }
+        }
+      ]
+    }
+  ],
+  "merchant_preferences": {
+    "setup_fee": {
+      "currency": "GBP",
+      "value": "1"
+    },
+    "cancel_url": "https://www.cancel.com",
+    "return_url": "https://www.return.com",
+    "max_fail_attempts": "0",
+    "auto_bill_amount": "YES",
+    "initial_fail_amount_action": "CONTINUE"
+  }
+}

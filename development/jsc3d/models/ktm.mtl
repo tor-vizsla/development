@@ -1,0 +1,28 @@
+﻿# Created from scratch
+
+newmtl Charcoal
+Kd 80 55 22
+
+newmtl FrontColor
+Kd 0.000000 0.627451 0.909804
+
+newmtl Gainsboro
+Kd 0.000000 0.000000 0.909804
+
+newmtl DarkGray
+Kd 169 169 169
+
+newmtl LightGrey
+Kd 0.000000 0.909804 0.000000
+
+newmtl White
+Kd 255 255 255
+
+newmtl WhiteSmoke
+Kd 250 243 235
+
+newmtl LavenderBlush
+Kd 255 240 245
+
+newmtl Silver
+Kd 192 192 192

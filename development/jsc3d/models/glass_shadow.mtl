@@ -1,0 +1,13 @@
+# Exported from 3D Builder
+
+newmtl Red
+Kd 1.0 0.725490 0
+d 1
+
+newmtl Green
+Ka 0.0000 0.0000 0.0000
+Kd 0.0000 0.0000 0.0000
+Ks 0.9000 0.9000 0.9000
+d 0.1000
+Ns 200
+illum 4

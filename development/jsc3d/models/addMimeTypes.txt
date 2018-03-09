@@ -1,0 +1,5 @@
+﻿.obj	text/plain
+.mtl	text/plain
+
+
+to get RGB to floating point, divide each colour by 255
